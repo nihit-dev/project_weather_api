@@ -118,7 +118,7 @@ Deploying the Weather API Challenge application using AWS SAM (Serverless Applic
 
 ## Architecture
 
-<img src="./answers/AWS.jpeg" alt="AWS Architecture" width="400"/>
+<img src="./answers/AWS.png" alt="AWS Architecture" width="400"/>
 
 - The application will be using AWS S3 for file storage.
 
