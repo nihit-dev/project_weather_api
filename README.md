@@ -118,6 +118,8 @@ Deploying the Weather API Challenge application using AWS SAM (Serverless Applic
 
 ## Architecture
 
+![img.png](./answers/AWS.jpeg)
+
 - The application will be using AWS S3 for file storage.
 
 - When a file is uploaded to the S3 bucket, AWS Lambda function will be triggered to process the data and store it in an AWS RDS instance. 
@@ -162,3 +164,7 @@ Deploying is also simple using the AWS SAM CLI. The SAM CLI will build the appli
    ```bash
    sam delete --stack-name weather_api
    ```
+
+## Conclusion
+
+This Weather API Application provides an efficient and scalable solution for accessing and processing weather data of various stations. By leveraging AWS's serverless architecture, we can ensure high performance and reliability.
